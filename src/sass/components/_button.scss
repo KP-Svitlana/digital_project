@@ -1,0 +1,15 @@
+.button {
+  height: 71px;
+  max-width: 222px;
+
+  background-color: $grey_1;
+  color: $white;
+  @include font(400, 12px, 1, 2.4px);
+  text-transform: uppercase;
+
+  @include flex(flex, center, center);
+  gap: 15px;
+
+  border: none;
+  outline: none;
+}

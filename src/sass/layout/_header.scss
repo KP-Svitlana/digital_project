@@ -1,0 +1,43 @@
+.header_container {
+  @include flex(flex, null, center);
+  gap: 330px;
+  padding: 45px 0;
+}
+
+.nav_list {
+  @include flex(flex, null, null);
+  flex-direction: row;
+  gap: 60px;
+}
+
+.navLink {
+  color: $grey_1;
+  @include font(400, 12px, 1, 2.4px);
+  text-transform: uppercase;
+}
+
+.navLink--active {
+  color: $grey_1;
+  @include font(400, 12px, 1, 2.4px);
+  text-transform: uppercase;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: $grey_1;
+    width: 100%;
+    position: absolute;
+    top: -4px;
+  }
+  &::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: $grey_1;
+    width: 100%;
+    position: absolute;
+    bottom: -4px;
+  }
+}
