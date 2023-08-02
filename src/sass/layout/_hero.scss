@@ -1,0 +1,62 @@
+.title {
+  color: $grey_4;
+  @include font(300, 64px, 1, null);
+  text-transform: uppercase;
+}
+
+.title__span {
+  color: $grey_1;
+  @include font(700, 64px, 1, null);
+}
+
+.hero__btnWrap {
+  @include flex(flex, null, null);
+  gap: 24px;
+  margin-top: 90px;
+}
+
+.hero__btn {
+  width: 53px;
+  height: 53px;
+
+  border: 1px solid $grey_6;
+  background-color: #f9f9f9;
+
+  @include flex(flex, center, center);
+
+  cursor: pointer;
+}
+
+.hero__numBtnWrap {
+  @include flex(flex, null, null);
+  gap: 89px;
+}
+
+.hero__numBtn {
+  color: $grey_4;
+
+  @include font(400, 24px, 1, null);
+
+  margin-top: 94px;
+
+  cursor: pointer;
+}
+
+.hero__numBtn:first-child {
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    background-color: $grey_5;
+
+    width: 44px;
+    height: 1px;
+
+    position: absolute;
+    top: 10px;
+    left: 50px;
+
+    transform: rotate(130deg);
+  }
+}
