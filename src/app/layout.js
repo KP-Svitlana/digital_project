@@ -24,6 +24,11 @@ const tt_hoves = localFont({
       weight: "700",
       style: "normal",
     },
+    {
+      path: "../fonts/SFProDisplay-Heavy.woff2",
+      weight: "900",
+      style: "normal",
+    },
   ],
 });
 

@@ -262,4 +262,34 @@ section {
 .about__rightImg {
   position: relative;
   top: 60px;
+}
+
+.mainTasks__list {
+  display: flex;
+  align-items: center;
+  gap: 187px;
+}
+
+.mainTasks__item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.mainTasks__number {
+  color: #f2f2f2;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: normal;
+}
+
+.mainTasks__text {
+  color: #333;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.63;
+}
+
+.mainTasks__item:first-child .mainTasks__text {
+  width: 279px;
 }/*# sourceMappingURL=globals.css.map */

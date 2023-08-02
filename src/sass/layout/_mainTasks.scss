@@ -1,0 +1,21 @@
+.mainTasks__list {
+  @include flex(flex, null, center);
+  gap: 187px;
+}
+.mainTasks__item {
+  @include flex(flex, null, center);
+  gap: 30px;
+}
+
+.mainTasks__number {
+  color: $grey_6;
+  @include font(900, 200px, normal, null);
+}
+.mainTasks__text {
+  color: $grey_1;
+  @include font(400, 22px, 1.63, null);
+}
+
+.mainTasks__item:first-child .mainTasks__text {
+  width: 279px;
+}
