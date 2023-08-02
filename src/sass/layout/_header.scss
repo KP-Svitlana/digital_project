@@ -1,7 +1,9 @@
 .header_container {
   @include flex(flex, null, center);
   gap: 330px;
-  padding: 45px 0;
+  // padding: 45px 0;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .nav_list {

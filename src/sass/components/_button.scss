@@ -1,6 +1,6 @@
 .button {
   height: 71px;
-  max-width: 222px;
+  width: 222px;
 
   background-color: $grey_1;
   color: $white;
@@ -16,7 +16,7 @@
 
 .button--white {
   height: 71px;
-  max-width: 222px;
+  width: 222px;
 
   background-color: white;
   color: $grey_1;
@@ -28,4 +28,9 @@
 
   border: none;
   outline: none;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $grey_1;
+  }
 }

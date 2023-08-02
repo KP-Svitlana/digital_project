@@ -1,7 +1,14 @@
+.hero__container {
+  @include flex(flex, null, null);
+  gap: 122px;
+  //   flex-direction: row;
+}
+
 .title {
   color: $grey_4;
   @include font(300, 64px, 1, null);
   text-transform: uppercase;
+  margin-top: 336px;
 }
 
 .title__span {
@@ -59,4 +66,14 @@
 
     transform: rotate(130deg);
   }
+}
+
+.hero__imgWrap {
+  position: relative;
+}
+
+.btnWpap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }

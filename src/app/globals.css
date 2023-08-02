@@ -41,7 +41,8 @@ body {
 .container {
   width: 1440px;
   margin: 0 auto;
-  padding: 0 135px;
+  padding-left: 135px;
+  padding-right: 135px;
   box-sizing: border-box;
 }
 
@@ -51,7 +52,7 @@ section {
 
 .button {
   height: 71px;
-  max-width: 222px;
+  width: 222px;
   background-color: #333;
   color: #fff;
   font-weight: 400;
@@ -69,7 +70,7 @@ section {
 
 .button--white {
   height: 71px;
-  max-width: 222px;
+  width: 222px;
   background-color: white;
   color: #333;
   font-weight: 400;
@@ -84,12 +85,16 @@ section {
   border: none;
   outline: none;
 }
+.button--white:hover, .button--white:focus {
+  border: 1px solid #333;
+}
 
 .header_container {
   display: flex;
   align-items: center;
   gap: 330px;
-  padding: 45px 0;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .nav_list {
@@ -135,12 +140,18 @@ section {
   bottom: -4px;
 }
 
+.hero__container {
+  display: flex;
+  gap: 122px;
+}
+
 .title {
   color: #bdbdbd;
   font-weight: 300;
   font-size: 64px;
   line-height: 1;
   text-transform: uppercase;
+  margin-top: 336px;
 }
 
 .title__span {
@@ -194,4 +205,14 @@ section {
   top: 10px;
   left: 50px;
   transform: rotate(130deg);
+}
+
+.hero__imgWrap {
+  position: relative;
+}
+
+.btnWpap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }/*# sourceMappingURL=globals.css.map */
