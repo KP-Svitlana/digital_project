@@ -3,11 +3,25 @@ import Image from "next/image";
 import errowSvg from "@/accets/svg/errow.svg";
 import errowSvgDark from "@/accets/svg/rightErrowBlack.svg";
 
-export const Button = ({ text, isDark }) => {
+export const Button = ({ text, isDark, type }) => {
   return (
-    <Link href="#" className={isDark ? "button" : "button--white"}>
-      {text}
-      <Image src={isDark ? errowSvg : errowSvgDark} alt="Errow" />
-    </Link>
+    <>
+      {type ? (
+        <button type={type} className={isDark ? "button" : "button--white"}>
+          {text}
+          <Image src={isDark ? errowSvg : errowSvgDark} alt="Errow" />
+        </button>
+      ) : (
+        <Link href="#" className={isDark ? "button" : "button--white"}>
+          {text}
+          <Image src={isDark ? errowSvg : errowSvgDark} alt="Errow" />
+        </Link>
+      )}
+    </>
+
+    // <Link href="#" className={isDark ? "button" : "button--white"}>
+    //   {text}
+    //   <Image src={isDark ? errowSvg : errowSvgDark} alt="Errow" />
+    // </Link>
   );
 };

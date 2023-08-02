@@ -343,4 +343,9 @@ section {
   margin-top: 30px;
   display: flex;
   justify-content: flex-end;
+}
+
+.formWrap {
+  display: flex;
+  margin-bottom: 21px;
 }/*# sourceMappingURL=globals.css.map */

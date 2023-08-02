@@ -16,9 +16,9 @@ export const OurPprojects = () => {
       <h3 className="section__title">Наши проекты</h3>
       <div className="projects__imgWrap">
         <Link href="/#" className="projects_link">
-          <h4 className="projects__title">Досуговій центр</h4>
+          <h4 className="projects__title">Досуговый центр</h4>
           <div className="projects__textWrap ">
-            <p className="projects__text">ПОдробнее</p>
+            <p className="projects__text">Подробнее</p>
             <Image src={rightErrowSvg} alt="Right errow" />
           </div>
         </Link>
