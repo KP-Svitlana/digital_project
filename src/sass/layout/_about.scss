@@ -1,0 +1,43 @@
+.section__about {
+  background-color: #fbfbfb;
+
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 70px;
+
+  @include flex(flex, null, null);
+  flex-direction: row;
+  gap: 30px;
+}
+
+.about__left {
+  @include flex(flex, null, null);
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.about__text {
+  color: #000;
+  @include font(300, 16px, 1.56, null);
+  width: 400px;
+}
+
+.about__right {
+  @include flex(flex, null, null);
+  flex-direction: row;
+  gap: 30px;
+}
+
+.about__leftImg {
+  @include flex(flex, null, null);
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  top: 30px;
+}
+
+.about__rightImg {
+  position: relative;
+  top: 60px;
+}

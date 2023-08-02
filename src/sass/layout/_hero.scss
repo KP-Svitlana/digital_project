@@ -1,14 +1,11 @@
-.hero__container {
+.section__hero {
   @include flex(flex, null, null);
   gap: 122px;
-  //   flex-direction: row;
 }
 
-.title {
-  color: $grey_4;
-  @include font(300, 64px, 1, null);
-  text-transform: uppercase;
+.hero__title {
   margin-top: 336px;
+  text-transform: uppercase;
 }
 
 .title__span {

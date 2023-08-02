@@ -1,3 +1,8 @@
 section {
   padding-bottom: 120px;
 }
+
+.section__title {
+  color: $grey_4;
+  @include font(300, 64px, 1, null);
+}

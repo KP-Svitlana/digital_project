@@ -50,6 +50,13 @@ section {
   padding-bottom: 120px;
 }
 
+.section__title {
+  color: #bdbdbd;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 1;
+}
+
 .button {
   height: 71px;
   width: 222px;
@@ -140,18 +147,14 @@ section {
   bottom: -4px;
 }
 
-.hero__container {
+.section__hero {
   display: flex;
   gap: 122px;
 }
 
-.title {
-  color: #bdbdbd;
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 1;
-  text-transform: uppercase;
+.hero__title {
   margin-top: 336px;
+  text-transform: uppercase;
 }
 
 .title__span {
@@ -215,4 +218,48 @@ section {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.section__about {
+  background-color: #fbfbfb;
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-right: 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.about__left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.about__text {
+  color: #000;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.56;
+  width: 400px;
+}
+
+.about__right {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.about__leftImg {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  top: 30px;
+}
+
+.about__rightImg {
+  position: relative;
+  top: 60px;
 }/*# sourceMappingURL=globals.css.map */

@@ -7,9 +7,9 @@ import heroImg from "@/accets/img/hero_1x.png";
 
 export const Hero = () => {
   return (
-    <section className="container hero__container ">
+    <section className="container section__hero ">
       <div>
-        <h1 className="title">
+        <h1 className="section__title hero__title">
           Project <br /> <span className="title__span">Home</span>
         </h1>
         <div className="hero__btnWrap">
