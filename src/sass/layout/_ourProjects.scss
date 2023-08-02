@@ -1,0 +1,45 @@
+.projects__imgWrap {
+  @include flex(flex, null, null);
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  margin-top: 60px;
+}
+
+.projects_link {
+  box-sizing: border-box;
+  background-color: $grey_1;
+  background-image: $bg-fon, url(../../accets/img/ourProjects1_1x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  max-width: 570px;
+  padding: 48px 78px;
+  @include flex(flex, null, null);
+  flex-direction: column;
+  gap: 14px;
+}
+
+.projects__textWrap {
+  @include flex(flex, null, null);
+  flex-direction: row;
+  gap: 12px;
+}
+
+.projects__title {
+  color: $white;
+  @include font(700, 64px, 1, null);
+  text-transform: uppercase;
+}
+
+.projects__text {
+  color: $white;
+  @include font(400, 12px, 1, 2.4px);
+  text-transform: uppercase;
+}
+
+.projects__btnWrap {
+  margin-top: 30px;
+  @include flex(flex, flex-end, null);
+}
