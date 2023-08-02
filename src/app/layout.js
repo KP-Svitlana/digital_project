@@ -1,8 +1,32 @@
-import "./globals.css";
-import { Inter } from "next/font/google";
+import "./globals.scss";
+import localFont from "next/font/local";
 import { Header } from "@/components/Header/Header";
+import { Button } from "@/components/Button";
 
-const inter = Inter({ subsets: ["latin"] });
+const tt_hoves = localFont({
+  src: [
+    {
+      path: "../fonts/TTHoves-Light.woff2",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../fonts/TTHoves-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../fonts/TTHoves-Medium.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../fonts/TTHoves-Bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+});
 
 export const metadata = {
   title: "Digital Project",
@@ -16,9 +40,10 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/src/app/favicon.svg" sizes="any" />
       </head>
 
-      <body className={inter.className}>
+      <body className={tt_hoves.className}>
         <Header />
         {children}
+        <Button />
       </body>
     </html>
   );
