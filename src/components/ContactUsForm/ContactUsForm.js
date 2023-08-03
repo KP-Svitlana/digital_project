@@ -1,4 +1,5 @@
 import { ContactUsInput } from "@/components/ContactUsInput";
+import { ContactUsCheckbox } from "@/components/ContactUsCheckbox";
 import { Button } from "@/components/Button";
 
 export const ContactUsForm = () => {
@@ -22,11 +23,11 @@ export const ContactUsForm = () => {
         type={"text"}
         placeholder={"Интересующий товар/услуга"}
       />
-      <textarea
-        className="form_textArea"
-        name={"message"}
-        placeholder={"Сообщение *"}
-        required
+      <ContactUsInput name={"message"} placeholder={"Сообщение"} required />
+      <ContactUsCheckbox
+        label={
+          "Отправляя заявку Вы соглашаетесь с политикой конфиденциальности"
+        }
       />
       <Button text={"отправить"} isDark={true} type={"submit"} />
     </form>

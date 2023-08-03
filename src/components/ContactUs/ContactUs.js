@@ -10,7 +10,9 @@ export const ContactUs = () => {
       <h3 className="section__title">Связаться с нами</h3>
       <div className="formWrap">
         <ContactUsForm />
-        <Image src={img} alt="Photo of a man making a call" />
+        <div>
+          <Image src={img} alt="Photo of a man making a call" />
+        </div>
       </div>
     </section>
   );
