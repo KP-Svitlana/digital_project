@@ -4,6 +4,7 @@ import { MainTasks } from "@/components/MainTasks";
 import { OurPprojects } from "@/components/OurProjects";
 import { ContactUs } from "@/components/ContactUs";
 
+
 export default function Home() {
   return (
     <main>
@@ -12,6 +13,7 @@ export default function Home() {
       <MainTasks />
       <OurPprojects />
       <ContactUs />
+     
     </main>
   );
 }

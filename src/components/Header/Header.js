@@ -4,14 +4,15 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import logoSvg from "@/accets/svg/logo.svg";
+import { navLinks } from "@/Constants";
 
-const navLinks = [
-  { href: "/", label: "Главная" },
-  { href: "#", label: "Галерея" },
-  { href: "#", label: "Проекты" },
-  { href: "#", label: "Сертификаты" },
-  { href: "#", label: "Контакты" },
-];
+// const navLinks = [
+//   { href: "/", label: "Главная" },
+//   { href: "#", label: "Галерея" },
+//   { href: "#", label: "Проекты" },
+//   { href: "#", label: "Сертификаты" },
+//   { href: "#", label: "Контакты" },
+// ];
 
 export const Header = () => {
   const pathname = usePathname();

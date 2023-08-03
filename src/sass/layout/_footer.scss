@@ -1,0 +1,55 @@
+.footer__container {
+  background-color: $footerBackgroundColor;
+  @include flex(flex, null, null);
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 58px;
+}
+
+.footer__logo {
+  margin-right: 100px;
+}
+
+.footer__nav {
+  @include flex(flex, null, null);
+  flex-direction: column;
+  gap: 25px;
+  margin-right: 157px;
+}
+
+.footer__title {
+  color: $white;
+  @include font(700, 16px, normal, null);
+}
+
+.nav__list {
+  @include flex(flex, null, null);
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nav__item,
+.adress__item {
+  color: $white;
+  @include font(500, 14px, 1.71, 0.42px);
+}
+
+.footer__address {
+  @include flex(flex, null, null);
+  flex-direction: column;
+  gap: 25px;
+  margin-right: 71px;
+  font-style: normal;
+}
+
+.adress__list {
+  @include flex(flex, null, null);
+  flex-direction: column;
+  gap: 32px;
+}
+
+.address__link {
+  @include flex(flex, null, null);
+  flex-direction: row;
+  gap: 14px;
+}

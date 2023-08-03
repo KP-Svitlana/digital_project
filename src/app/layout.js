@@ -1,6 +1,7 @@
 import "./globals.scss";
 import localFont from "next/font/local";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 const tt_hoves = localFont({
   src: [
@@ -47,6 +48,7 @@ export default function RootLayout({ children }) {
       <body className={tt_hoves.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
