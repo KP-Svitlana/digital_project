@@ -18,14 +18,14 @@ export const Header = () => {
 
   return (
     <header className="container header_container ">
-      <Image src={logoSvg} alt="Company logo" width={68} height={42} />
+      <Image src={logoSvg} alt="Company logo" />
       <nav>
         <ul className="nav_list">
           {navLinks.map((link) => {
             const isActive = pathname === link.href;
 
             return (
-              <li>
+              <li key={link.label}>
                 <Link
                   className={isActive ? "navLink--active" : "navLink"}
                   href={link.href}

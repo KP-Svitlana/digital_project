@@ -1,0 +1,18 @@
+.form {
+  @include flex(flex, null, null);
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form__input {
+  width: 391px;
+  height: 46px;
+  padding: 14px 20px;
+
+  background-color: #f3f3f3;
+  border: none;
+  outline: none;
+
+  color: #8d8d8d;
+  @include font(400, 14px, normal, 0.56px);
+}
