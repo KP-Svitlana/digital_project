@@ -16,3 +16,14 @@
   color: #8d8d8d;
   @include font(400, 14px, normal, 0.56px);
 }
+
+.form_textArea {
+  padding: 14px 20px;
+
+  background-color: #f3f3f3;
+  border: none;
+  outline: none;
+
+  color: #8d8d8d;
+  @include font(400, 14px, normal, 0.56px);
+}

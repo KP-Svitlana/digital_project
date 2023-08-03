@@ -22,7 +22,12 @@ export const ContactUsForm = () => {
         type={"text"}
         placeholder={"Интересующий товар/услуга"}
       />
-      <textarea name={"message"} placeholder={"Сообщение *"} required />
+      <textarea
+        className="form_textArea"
+        name={"message"}
+        placeholder={"Сообщение *"}
+        required
+      />
       <Button text={"отправить"} isDark={true} type={"submit"} />
     </form>
   );

@@ -1,5 +1,6 @@
 .formWrap {
   @include flex(flex, null, null);
+  gap: 30px;
 
-  margin-bottom: 21px;
+  margin-top: 22px;
 }
