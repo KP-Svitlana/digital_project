@@ -2,9 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import errowSvg from "@/accets/svg/errow.svg";
 import errowSvgDark from "@/accets/svg/rightErrowBlack.svg";
-import { navLinks } from "@/Constants";
 
-export const Button = ({ text, isDark, type }) => {
+export const Button = ({ text, isDark, type, path = "/" }) => {
+  console.log(path);
   return (
     <>
       {type ? (
@@ -13,7 +13,7 @@ export const Button = ({ text, isDark, type }) => {
           <Image src={isDark ? errowSvg : errowSvgDark} alt="Errow" />
         </button>
       ) : (
-        <Link href="/#" className={isDark ? "button" : "button--white"}>
+        <Link href={path} className={isDark ? "button" : "button--white"}>
           {text}
           <Image src={isDark ? errowSvg : errowSvgDark} alt="Errow" />
         </Link>

@@ -28,7 +28,7 @@ export const OurPprojects = () => {
         <Image src={img5} alt="Photo of building" />
       </div>
       <div className="projects__btnWrap">
-        <Button text={"Все проекты"} isDark={true} />
+        <Button text={"Все проекты"} isDark={true} path={"/ourprojects"} />
       </div>
     </section>
   );

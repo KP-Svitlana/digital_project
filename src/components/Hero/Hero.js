@@ -32,7 +32,7 @@ export const Hero = () => {
       <div className="hero__imgWrap">
         <Image src={heroImg} alt="Photo of building" className="hero__img" />
         <div className="btnWpap">
-          <Button text={"Взглянуть"} isDark={false} />
+          <Button text={"Взглянуть"} isDark={false} path={"/gallery"} />
         </div>
       </div>
     </section>

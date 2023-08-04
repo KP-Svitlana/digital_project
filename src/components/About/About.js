@@ -32,7 +32,7 @@ export const About = () => {
             only five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged.
           </p>
-          <Button text={"Читать"} isDark={false} />
+          <Button text={"Читать"} isDark={false} path={"/ourcertificate"} />
         </div>
       </div>
     </section>
