@@ -36,6 +36,17 @@ button {
 body {
   color: #fff;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.page__container {
+  padding: 200px;
 }
 
 .container {
@@ -460,6 +471,7 @@ section {
   flex-wrap: wrap;
   padding-top: 58px;
   position: relative;
+  flex-shrink: 0;
 }
 
 .footer__logo {
