@@ -38,20 +38,20 @@ export const Footer = () => {
               href="https://goo.gl/maps/m8wmNiAro4bf5xXo6"
               className="address__link"
             >
-              <Image className="adress__icon" src={map} />
+              <Image className="adress__icon" src={map} alt="address icon" />
               100000, Республика Казахстан, <br /> г. Караганда, ул.
               Телевизионная 10
             </Link>
           </li>
           <li className="adress__item">
             <Link href="tel:+380000000000" className="address__link">
-              <Image className="adress_icon" src={phone} />
+              <Image className="adress_icon" src={phone} alt="phone icon" />
               +38 (000) 000 00 00
             </Link>
           </li>
           <li className="adress__item">
             <Link href="mailto:mail@gmail.com" className="address__link">
-              <Image className="adress_icon" src={mail} />
+              <Image className="adress_icon" src={mail} alt="mail icon" />
               mail@gmail.com
             </Link>
           </li>

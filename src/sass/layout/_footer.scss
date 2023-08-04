@@ -50,7 +50,7 @@
 }
 
 .address__link {
-  @include flex(flex, null, null);
+  @include flex(flex, null, center);
   flex-direction: row;
   gap: 14px;
 }
