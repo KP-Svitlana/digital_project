@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: "/digital_project",
-};
+const nextConfig = {};
 
 module.exports = nextConfig;
