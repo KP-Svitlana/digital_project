@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/KP-Svitlana/digital_project",
+  assetPrefix: "/digital_project/",
+  basePath: "/digital_project",
 };
 
 module.exports = nextConfig;
