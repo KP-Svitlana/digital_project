@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "https://KP-Svitlana.github.io/github-pages/",
+  basePath: "/digital_project",
 };
 
 module.exports = nextConfig;
