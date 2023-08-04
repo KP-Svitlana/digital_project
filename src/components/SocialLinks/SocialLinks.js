@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import facebookSvg from "@/accets/svg/facebook.svg";
-import linkedinSvg from "@/accets/svg/linkedin.svg";
+import linkedinSvg from "@/accets/svg/linkedIn.svg";
 import pinterestSvg from "@/accets/svg/pininterest.svg";
 import twitterSvg from "@/accets/svg/twitter.svg";
 
