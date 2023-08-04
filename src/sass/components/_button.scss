@@ -11,6 +11,7 @@
   gap: 15px;
 
   transform: scale(1);
+  transition: transform $transition;
 
   &:hover,
   &:focus {
@@ -29,6 +30,8 @@
 
   @include flex(flex, center, center);
   gap: 15px;
+
+  transition: border $transition;
 
   &:hover,
   &:focus {

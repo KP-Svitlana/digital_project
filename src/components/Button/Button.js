@@ -4,7 +4,6 @@ import errowSvg from "@/accets/svg/errow.svg";
 import errowSvgDark from "@/accets/svg/rightErrowBlack.svg";
 
 export const Button = ({ text, isDark, type, path = "/" }) => {
-  console.log(path);
   return (
     <>
       {type ? (
