@@ -11,7 +11,10 @@ import map from "@/accets/svg/map.svg";
 export const Footer = () => {
   return (
     <footer className="container footer__container">
-      <Image className="footer__logo" src={logo} alt="logo" />
+      <Link href="/">
+        <Image className="footer__logo" src={logo} alt="logo" />
+      </Link>
+
       <div className="footer__nav">
         <h4 className="footer__title">Информация</h4>
         <ul className="nav__list">
@@ -55,8 +58,10 @@ export const Footer = () => {
         </ul>
       </address>
       <SocialLinks />
-      <div>
-        <p></p>
+      <div className="footer__copyright">
+        <p className="copyright__text">
+          © 2019 Digital Project. Все права защищены.
+        </p>
       </div>
     </footer>
   );

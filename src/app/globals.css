@@ -454,9 +454,11 @@ section {
 .footer__container {
   background-color: #2c2c2c;
   display: flex;
+  align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 58px;
+  position: relative;
 }
 
 .footer__logo {
@@ -510,4 +512,29 @@ section {
   display: flex;
   flex-direction: row;
   gap: 14px;
+}
+
+.footer__copyright {
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__copyright::before {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.1;
+  position: absolute;
+  bottom: 70px;
+}
+.footer__copyright .copyright__text {
+  color: rgba(200, 200, 200, 0.5);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.83;
 }/*# sourceMappingURL=globals.css.map */

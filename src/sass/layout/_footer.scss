@@ -1,9 +1,10 @@
 .footer__container {
   background-color: $footerBackgroundColor;
-  @include flex(flex, null, null);
+  @include flex(flex, null, flex-start);
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 58px;
+  position: relative;
 }
 
 .footer__logo {
@@ -52,4 +53,27 @@
   @include flex(flex, null, null);
   flex-direction: row;
   gap: 14px;
+}
+
+.footer__copyright {
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 60px;
+  @include flex(flex, center, center);
+
+  &::before {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: $white;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 70px;
+  }
+
+  .copyright__text {
+    color: rgba(200, 200, 200, 0.5);
+    @include font(400, 12px, 1.83, null);
+  }
 }
