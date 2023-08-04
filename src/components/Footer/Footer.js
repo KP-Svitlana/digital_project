@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { navLinks } from "@/Constants";
+import { SocialLinks } from "@/components/SocialLinks";
 
 import logo from "@/accets/svg/logo_footer.svg";
 import mail from "@/accets/svg/mail.svg";
@@ -53,34 +54,10 @@ export const Footer = () => {
           </li>
         </ul>
       </address>
-
-      {/* <div>
-        <ul>
-          <li>
-            <Link>
-              <Image />
-            </Link>
-          </li>
-          <li>
-            <Link>
-              <Image />
-            </Link>
-            <li>
-              <Link>
-                <Image />
-              </Link>
-            </li>
-            <li>
-              <Link>
-                <Image />
-              </Link>
-            </li>
-          </li>
-        </ul>
-      </div>
+      <SocialLinks />
       <div>
         <p></p>
-      </div> */}
+      </div>
     </footer>
   );
 };
