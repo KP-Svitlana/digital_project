@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { navLinks } from "@/Constants";
-import { SocialLinks } from "@/components/SocialLinks";
+import { SocialLinks } from "@/components";
 
 import logo from "@/accets/svg/logo_footer.svg";
 import mail from "@/accets/svg/mail.svg";

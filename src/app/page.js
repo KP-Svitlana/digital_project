@@ -1,9 +1,4 @@
-import { Hero } from "@/components/Hero";
-import { About } from "@/components/About";
-import { MainTasks } from "@/components/MainTasks";
-import { OurPprojects } from "@/components/OurProjects";
-import { ContactUs } from "@/components/ContactUs";
-
+import { Hero, About, MainTasks, OurPprojects, ContactUs } from "@/components";
 
 export default function Home() {
   return (
@@ -13,7 +8,6 @@ export default function Home() {
       <MainTasks />
       <OurPprojects />
       <ContactUs />
-     
     </main>
   );
 }

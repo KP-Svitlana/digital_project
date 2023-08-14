@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { Button } from "@/components/Button";
+import { Button } from "@/components";
 
-import img1 from "@/accets/img/ourProjects1_1x.png";
 import img2 from "@/accets/img/ourProjects2_1x.png";
 import img3 from "@/accets/img/ourProjects3_1x.png";
 import img4 from "@/accets/img/ourProjects4_1x.png";

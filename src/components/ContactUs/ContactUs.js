@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { ContactUsForm } from "@/components/ContactUsForm";
+import { ContactUsForm } from "@/components";
 
 import img from "@/accets/img/contactUs_1x.png";
 

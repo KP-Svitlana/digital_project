@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button } from "@/components/Button";
+import { Button } from "@/components";
 
 import photo_1 from "@/accets/img/about1_1x.png";
 import photo_2 from "@/accets/img/about2_1x.png";

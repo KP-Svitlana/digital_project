@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button } from "@/components/Button";
+import { Button } from "@/components";
 
 import rightErrowSvg from "@/accets/svg/rightErrowBlack.svg";
 import leftErrowSvg from "@/accets/svg/leftErrow.svg";

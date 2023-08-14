@@ -1,6 +1,6 @@
-import { ContactUsInput } from "@/components/ContactUsInput";
-import { ContactUsCheckbox } from "@/components/ContactUsCheckbox";
-import { Button } from "@/components/Button";
+import { ContactUsInput } from "@/components";
+import { ContactUsCheckbox } from "@/components";
+import { Button } from "@/components";
 
 export const ContactUsForm = () => {
   return (
