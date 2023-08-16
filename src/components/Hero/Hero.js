@@ -3,7 +3,7 @@ import { Button } from "@/components";
 
 import rightErrowSvg from "@/accets/svg/rightErrowBlack.svg";
 import leftErrowSvg from "@/accets/svg/leftErrow.svg";
-import heroImg from "@/accets/img/hero_1x.png";
+import heroImg from "@/accets/img/hero_3x.png";
 
 export const Hero = () => {
   return (
@@ -30,7 +30,13 @@ export const Hero = () => {
         </div>
       </div>
       <div className="hero__imgWrap">
-        <Image src={heroImg} alt="Photo of building" className="hero__img" />
+        <Image
+          src={heroImg}
+          width={770}
+          hieght={829}
+          alt="Photo of building"
+          className="hero__img"
+        />
         <div className="btnWpap">
           <Button text={"Взглянуть"} isDark={false} path={"/gallery"} />
         </div>

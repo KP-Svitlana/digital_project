@@ -11,15 +11,27 @@ export const About = () => {
       <div className=" section__about">
         <div className="about__right">
           <div className="about__leftImg">
-            <Image src={photo_1} alt="Photo of building" />
+            <Image
+              src={photo_1}
+              alt="Photo of building"
+              width={270}
+              hieght={265}
+            />
             <Image
               src={photo_3}
               alt="Photo of building"
               className="about_photo2"
+              width={270}
+              hieght={345}
             />
           </div>
           <div className="about__rightImg">
-            <Image src={photo_2} alt="Photo of building" />
+            <Image
+              src={photo_2}
+              alt="Photo of building"
+              width={270}
+              hieght={170}
+            />
           </div>
         </div>
         <div className="about__left">

@@ -11,7 +11,12 @@ export const ContactUs = () => {
       <div className="formWrap">
         <ContactUsForm />
         <div>
-          <Image src={img} alt="Photo of a man making a call" />
+          <Image
+            src={img}
+            alt="Photo of a man making a call"
+            width={749}
+            hieght={369}
+          />
         </div>
       </div>
     </section>

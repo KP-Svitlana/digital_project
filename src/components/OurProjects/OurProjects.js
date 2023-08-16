@@ -21,10 +21,10 @@ export const OurPprojects = () => {
             <Image src={rightErrowSvg} alt="Right errow" />
           </div>
         </Link>
-        <Image src={img2} alt="Photo of building" />
-        <Image src={img3} alt="Photo of building" />
-        <Image src={img4} alt="Photo of building" />
-        <Image src={img5} alt="Photo of building" />
+        <Image src={img2} alt="Photo of building" width={570} hieght={255} />
+        <Image src={img3} alt="Photo of building" width={270} hieght={255} />
+        <Image src={img4} alt="Photo of building" width={470} hieght={255} />
+        <Image src={img5} alt="Photo of building" width={370} hieght={255} />
       </div>
       <div className="projects__btnWrap">
         <Button text={"Все проекты"} isDark={true} path={"/ourprojects"} />
